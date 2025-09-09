@@ -13540,3 +13540,691 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.09-18.22.02:314][920]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14120.919922
 [2025.09.09-18.22.03:312][923]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.09-18.22.03:312][923]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14121.582031, Update Interval: 349.317291
+[2025.09.09-18.28.43:061][838]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14521.642578
+[2025.09.09-18.28.44:062][842]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.28.44:062][842]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14522.309570, Update Interval: 345.327301
+[2025.09.09-18.29.08:720][114]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.09.09-18.29.08:735][114]LogPSOHitching: Encountered 1600 PSO creation hitches so far (716 graphics, 884 compute). 0 of them were precached.
+[2025.09.09-18.29.08:782][114]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.09.09-18.29.08:820][115]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.09.09-18.29.23:225][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.29.23:389][898]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.29.23:432][898]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.29.23:432][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.29.23:432][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.29.23:463][898]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.29.23:465][898]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_ProjectileF239E9E9433C91979DB44CB9469C2758.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.29.23:530][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 305.235 ms (total: 19.1 sec)
+[2025.09.09-18.29.23:683][898]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.29.23:683][898]LogContentValidation: Enabled validators:
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.29.23:684][898]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.29.23:690][898]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.30.08:613][400]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.30.08:690][400]LogPlayLevel: [PlayLevel] Compiling BP_Projectile before play...
+[2025.09.09-18.30.08:691][400]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2025.09.09-18.30.09:335][400]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2025.09.09-18.30.09:349][400]LogPlayLevel: PlayLevel: Blueprint regeneration took 679 ms (2 blueprints)
+[2025.09.09-18.30.09:369][400]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.30.09:400][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030214s)
+[2025.09.09-18.30.09:400][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.031315s)
+[2025.09.09-18.30.09:431][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.09-18.30.09:442][400]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.30.09:535][400]LogPlayLevel: PIE: World Init took: (0.095791s)
+[2025.09.09-18.30.09:540][400]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2025.09.09-18.30.09:543][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.30.09:543][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.30.09:543][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.30.09:543][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.30.09:544][400]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.30.09:544][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.30.09:544][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.30.09:544][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.30.09:550][400]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.30.09:550][400]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.30.09:550][400]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.30.09:559][400]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.30.09:830][400]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.30.09:835][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.30.09:835][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.30.09:838][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.30.09:843][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2025.09.09-18.30.09:843][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2025.09.09-18.30.09:847][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2025.09.09-18.30.09:847][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2025.09.09-18.30.09:847][400]LogInit: FAudioDevice initialized with ID 44.
+[2025.09.09-18.30.09:848][400]LogAudio: Display: Audio Device (ID: 44) registered with world 'L_NewRoom'.
+[2025.09.09-18.30.09:851][400]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2025.09.09-18.30.09:915][400]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.30.09:927][400]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.30.09
+[2025.09.09-18.30.09:931][400]LogWorld: Bringing up level for play took: 0.012718
+[2025.09.09-18.30.09:952][400]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2025.09.09-18.30.10:013][400]PIE: Server logged in
+[2025.09.09-18.30.10:016][400]PIE: Play in editor total start time 1.369 seconds.
+[2025.09.09-18.30.10:119][400]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.30.10:407][404]LogPSOHitching: Encountered 1650 PSO creation hitches so far (738 graphics, 912 compute). 0 of them were precached.
+[2025.09.09-18.30.18:544][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.30.18:544][875]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.30.18:550][875]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.30.18:556][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.30.18:576][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.30.18:585][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.30.18:614][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.30.18:617][875]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2025.09.09-18.30.18:620][875]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=4
+[2025.09.09-18.30.18:626][875]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=2
+[2025.09.09-18.30.18:673][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.09.09-18.30.18:778][876]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.09.09-18.30.49:324][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.30.49:453][538]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.30.49:504][538]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.30.49:504][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.30.49:504][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.30.49:521][538]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.30.49:523][538]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_Projectile403E61B64D592C0F133B1B99948584C5.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.30.49:542][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 217.885 ms (total: 19.3 sec)
+[2025.09.09-18.30.49:669][538]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.30.49:670][538]LogContentValidation: Enabled validators:
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.30.49:670][538]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.30.49:670][538]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.30.56:397][918]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.30.56:457][918]LogPlayLevel: [PlayLevel] Compiling BP_Projectile before play...
+[2025.09.09-18.30.56:576][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.09.09-18.30.56:580][918]LogPlayLevel: PlayLevel: Blueprint regeneration took 127 ms (1 blueprints)
+[2025.09.09-18.30.56:582][918]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.30.56:584][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001752s)
+[2025.09.09-18.30.56:584][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.001806s)
+[2025.09.09-18.30.56:615][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.09.09-18.30.56:617][918]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.30.56:620][918]LogPlayLevel: PIE: World Init took: (0.002555s)
+[2025.09.09-18.30.56:621][918]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.30.56:621][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.30.56:621][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.30.56:621][918]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.30.56:621][918]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.30.56:621][918]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.30.56:623][918]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.30.56:922][918]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.30.56:923][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.30.56:923][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.30.56:923][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.30.56:924][918]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.09.09-18.30.56:924][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2025.09.09-18.30.56:928][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.09.09-18.30.56:928][918]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.09.09-18.30.56:928][918]LogInit: FAudioDevice initialized with ID 45.
+[2025.09.09-18.30.56:928][918]LogAudio: Display: Audio Device (ID: 45) registered with world 'L_NewRoom'.
+[2025.09.09-18.30.56:929][918]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.09.09-18.30.56:940][918]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.30.56:943][918]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.30.56
+[2025.09.09-18.30.56:943][918]LogWorld: Bringing up level for play took: 0.000985
+[2025.09.09-18.30.56:949][918]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.09.09-18.30.56:958][918]PIE: Server logged in
+[2025.09.09-18.30.56:960][918]PIE: Play in editor total start time 0.509 seconds.
+[2025.09.09-18.30.57:001][918]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.31.06:154][266]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-379.08 Y=-465.08 Z=0.00 Location: X=2527.05 Y=-758.26 Z=146.49 Normal: X=0.54 Y=0.69 Z=-0.48 PenetrationDepth:22.704 Actor:BP_Projectile_C_4 Component:Sphere BoneName:None (0 other events since notify)
+[2025.09.09-18.31.08:587][412]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-268.66 Y=-536.49 Z=0.00 Location: X=2085.98 Y=-1545.93 Z=146.49 Normal: X=0.39 Y=0.78 Z=-0.48 PenetrationDepth:22.704 Actor:BP_Projectile_C_12 Component:Sphere BoneName:None (2 other events since notify)
+[2025.09.09-18.31.14:674][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.31.14:674][775]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.31.14:675][775]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.31.14:675][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.31.14:678][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.31.14:683][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.31.14:714][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.31.14:715][775]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.09.09-18.31.14:715][775]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=4
+[2025.09.09-18.31.14:717][775]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=2
+[2025.09.09-18.31.14:860][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.09-18.31.14:902][776]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.09.09-18.32.08:115][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.09-18.32.08:119][764]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/L_NewRoom' took 0.036
+[2025.09.09-18.32.08:120][764]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.09.09-18.32.08:313][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.09.09-18.32.08:313][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.09.09-18.32.08:340][764]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1
+[2025.09.09-18.32.08:340][764]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_FirstPersonCharacter_Auto153F9ECD443ADCA4EC079E39E059319A7.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset'
+[2025.09.09-18.32.08:341][764]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.32.08:354][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.32.08:354][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.32.08:367][764]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_Projectile_Auto1
+[2025.09.09-18.32.08:367][764]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_Projectile_Auto1319B0A464DA5D84D7D93D7AB2259AA65.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/Autosaves/Game/BP_Projectile_Auto1.uasset'
+[2025.09.09-18.32.08:368][764]LogFileHelpers: Auto-saving content packages took 0.249
+[2025.09.09-18.35.24:045][683]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14922.584961
+[2025.09.09-18.35.25:045][687]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.35.25:045][687]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14923.252930, Update Interval: 306.463806
+[2025.09.09-18.37.15:882][253]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.09.09-18.37.15:918][253]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.09.09-18.38.20:670][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.38.20:784][758]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.38.20:823][758]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.38.20:823][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.38.20:823][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.38.20:839][758]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.38.20:841][758]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_Projectile6A7E09A04D6442B87492559F9CA2379A.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.38.20:872][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.766 ms (total: 19.5 sec)
+[2025.09.09-18.38.20:982][758]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.38.20:983][758]LogContentValidation: Enabled validators:
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.38.20:983][758]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.38.20:983][758]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.39.16:315][647]LogEditorTransaction: Undo Move Nodes
+[2025.09.09-18.39.16:910][660]LogEditorTransaction: Undo Add Node
+[2025.09.09-18.39.46:083][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.39.46:204][194]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.39.46:250][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.39.46:250][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.39.46:250][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.39.46:270][194]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.39.46:271][194]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_ProjectileE1FB30F6469BC99AC7D354AFCBC6B3E5.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.39.46:290][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 207.328 ms (total: 19.8 sec)
+[2025.09.09-18.39.46:416][194]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.39.46:416][194]LogContentValidation: Enabled validators:
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.39.46:416][194]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.39.46:416][194]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.40.10:086][326]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.40.10:107][326]LogPlayLevel: [PlayLevel] Compiling BP_Projectile before play...
+[2025.09.09-18.40.10:117][326]LogBlueprint: Error: [AssetLog] C:\Users\lilia\OneDrive\Documents\GitHub\CIS-1953-Assignment-1\CIS1953HW\Content\BP_Projectile.uasset: [Compiler] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2025.09.09-18.40.10:133][326]LogStreaming: Display: FlushAsyncLoading(680): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.09-18.40.10:294][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2025.09.09-18.40.10:299][326]LogPlayLevel: PlayLevel: Blueprint regeneration took 203 ms (1 blueprints)
+[2025.09.09-18.40.10:301][326]BlueprintLog: Warning: Blueprint failed to compile:  BP_Projectile
+[2025.09.09-18.40.14:633][326]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.09.09-18.40.16:647][414]LogSlate: Window 'Message Log' being destroyed
+[2025.09.09-18.40.16:663][414]LogSlate: Window 'Message Log' being destroyed
+[2025.09.09-18.40.24:246][863]LogBlueprint: Error: [AssetLog] C:\Users\lilia\OneDrive\Documents\GitHub\CIS-1953-Assignment-1\CIS1953HW\Content\BP_Projectile.uasset: [Compiler] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2025.09.09-18.40.24:305][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.09.09-18.40.42:121][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.09.09-18.40.44:073][891]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.40.44:080][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.09-18.40.44:082][891]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.40.44:084][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001872s)
+[2025.09.09-18.40.44:084][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.001927s)
+[2025.09.09-18.40.44:122][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.09.09-18.40.44:126][891]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.40.44:129][891]LogPlayLevel: PIE: World Init took: (0.002454s)
+[2025.09.09-18.40.44:130][891]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.40.44:130][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.40.44:130][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.40.44:130][891]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.40.44:130][891]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.40.44:130][891]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.40.44:133][891]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.40.44:400][891]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.40.44:400][891]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.40.44:400][891]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.40.44:400][891]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.40.44:402][891]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.09.09-18.40.44:402][891]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2025.09.09-18.40.44:405][891]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.09.09-18.40.44:405][891]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.09.09-18.40.44:405][891]LogInit: FAudioDevice initialized with ID 46.
+[2025.09.09-18.40.44:405][891]LogAudio: Display: Audio Device (ID: 46) registered with world 'L_NewRoom'.
+[2025.09.09-18.40.44:405][891]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.09.09-18.40.44:424][891]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.40.44:426][891]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.40.44
+[2025.09.09-18.40.44:426][891]LogWorld: Bringing up level for play took: 0.001534
+[2025.09.09-18.40.44:429][891]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.09.09-18.40.44:444][891]PIE: Server logged in
+[2025.09.09-18.40.44:447][891]PIE: Play in editor total start time 0.367 seconds.
+[2025.09.09-18.40.44:485][892]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.40.44:578][893]LogPSOHitching: Encountered 1700 PSO creation hitches so far (760 graphics, 940 compute). 0 of them were precached.
+[2025.09.09-18.41.04:889][ 98]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15263.424805
+[2025.09.09-18.41.04:956][102]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.41.04:956][102]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15263.474609, Update Interval: 307.090057
+[2025.09.09-18.41.34:433][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.41.34:434][868]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.41.34:434][868]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.41.34:435][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.41.34:437][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.41.34:444][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.41.34:483][868]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.09-18.41.34:484][868]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.09.09-18.41.34:484][868]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=4
+[2025.09.09-18.41.34:487][868]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=2
+[2025.09.09-18.41.34:492][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.41.34:497][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.09.09-18.41.34:598][869]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.09.09-18.41.58:938][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.41.59:079][ 93]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.41.59:119][ 93]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.41.59:120][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.41.59:120][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.41.59:139][ 93]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.41.59:140][ 93]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_Projectile0067E5294AABF5FF705C758030CD1CC9.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.41.59:157][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.157 ms (total: 20.0 sec)
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: Enabled validators:
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.41.59:320][ 93]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.41.59:320][ 93]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.42.03:652][344]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.42.03:662][344]LogPlayLevel: [PlayLevel] Compiling BP_Projectile before play...
+[2025.09.09-18.42.03:773][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.09.09-18.42.03:777][344]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2025.09.09-18.42.03:779][344]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.42.03:780][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001796s)
+[2025.09.09-18.42.03:780][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.001847s)
+[2025.09.09-18.42.03:813][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.09.09-18.42.03:816][344]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.42.03:818][344]LogPlayLevel: PIE: World Init took: (0.002044s)
+[2025.09.09-18.42.03:818][344]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2025.09.09-18.42.03:818][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.42.03:818][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.42.03:818][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.42.03:818][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.42.03:818][344]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.42.03:819][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.42.03:819][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.42.03:819][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.42.03:819][344]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.42.03:819][344]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.42.03:819][344]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.42.03:822][344]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.42.04:093][344]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.42.04:094][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.42.04:094][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.42.04:094][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.42.04:095][344]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2025.09.09-18.42.04:095][344]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2025.09.09-18.42.04:097][344]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2025.09.09-18.42.04:097][344]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2025.09.09-18.42.04:099][344]LogInit: FAudioDevice initialized with ID 47.
+[2025.09.09-18.42.04:099][344]LogAudio: Display: Audio Device (ID: 47) registered with world 'L_NewRoom'.
+[2025.09.09-18.42.04:099][344]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2025.09.09-18.42.04:110][344]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.42.04:111][344]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.42.04
+[2025.09.09-18.42.04:112][344]LogWorld: Bringing up level for play took: 0.001227
+[2025.09.09-18.42.04:116][344]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.09.09-18.42.04:126][344]PIE: Server logged in
+[2025.09.09-18.42.04:129][344]PIE: Play in editor total start time 0.468 seconds.
+[2025.09.09-18.42.04:168][344]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.42.18:694][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.42.18:694][204]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.42.18:694][204]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.42.18:695][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.42.18:697][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.42.18:700][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.42.18:730][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.42.18:730][204]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2025.09.09-18.42.18:730][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=4
+[2025.09.09-18.42.18:733][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=2
+[2025.09.09-18.42.18:876][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.09-18.42.18:949][205]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.09.09-18.42.40:736][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.42.40:873][379]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Projectile] ([2] browsable assets)...
+[2025.09.09-18.42.40:912][379]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Projectile.BP_Projectile]
+[2025.09.09-18.42.40:912][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Projectile]
+[2025.09.09-18.42.40:912][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset" SILENT=true
+[2025.09.09-18.42.40:931][379]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2025.09.09-18.42.40:932][379]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_Projectile3A3DA6EB4168D12837673799678794B8.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset'
+[2025.09.09-18.42.40:958][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 222.510 ms (total: 20.2 sec)
+[2025.09.09-18.42.41:085][379]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.42.41:085][379]LogContentValidation: Enabled validators:
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.42.41:085][379]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.42.41:085][379]AssetCheck: /Game/BP_Projectile Validating asset
+[2025.09.09-18.43.14:169][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.09.09-18.43.14:175][929]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/L_NewRoom' took 0.044
+[2025.09.09-18.43.14:176][929]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.09.09-18.43.14:503][929]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.09.09-18.43.14:503][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.09.09-18.43.14:529][929]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2
+[2025.09.09-18.43.14:529][929]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_FirstPersonCharacter_Auto24454178042D24113142FD3AABD062F01.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2.uasset'
+[2025.09.09-18.43.14:534][929]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pillar] ([1] browsable assets)...
+[2025.09.09-18.43.14:534][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pillar]
+[2025.09.09-18.43.14:562][929]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Pillar_Auto2
+[2025.09.09-18.43.14:564][929]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/Pillar_Auto2A887A5E44E3D6620B83D009A8ADFC14C.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/Autosaves/Game/Pillar_Auto2.uasset'
+[2025.09.09-18.43.14:565][929]LogFileHelpers: Auto-saving content packages took 0.390
+[2025.09.09-18.43.31:241][144]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.09-18.43.31:301][144]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.09-18.43.31:313][144]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.09-18.43.31:370][145]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.09-18.43.38:206][548]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MovingTarget
+[2025.09.09-18.43.38:281][548]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.09-18.43.40:529][656]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MovingTarget.BP_MovingTarget
+[2025.09.09-18.43.40:535][656]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.09.09-18.43.46:901][898]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.09.09-18.43.57:556][424]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.43.57:694][424]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.43.57:705][424]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.43.57:705][424]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.43.57:705][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.43.57:724][424]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.43.57:724][424]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTargetDB5BA3E3443FEB9796F47DA0EEF36665.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.43.57:759][424]LogFileHelpers: InternalPromptForCheckoutAndSave took 203.051 ms (total: 20.4 sec)
+[2025.09.09-18.43.57:895][424]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.43.57:895][424]LogContentValidation: Enabled validators:
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.43.57:895][424]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.43.57:895][424]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.43.57:933][424]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.09-18.45.40:589][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.45.40:699][554]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.45.40:738][554]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.45.40:738][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.45.40:738][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.45.40:752][554]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.45.40:753][554]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTarget75572786495B4309818C6880EEA42422.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.45.40:768][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.556 ms (total: 20.6 sec)
+[2025.09.09-18.45.40:885][554]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.45.40:885][554]LogContentValidation: Enabled validators:
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.45.40:885][554]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.45.40:885][554]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.46.15:683][ 59]Cmd: TRANSACTION UNDO
+[2025.09.09-18.46.15:683][ 59]LogEditorTransaction: Undo Move Elements
+[2025.09.09-18.46.26:871][707]Cmd: TRANSACTION UNDO
+[2025.09.09-18.46.26:871][707]LogEditorTransaction: Undo Move Elements
+[2025.09.09-18.46.28:157][766]Cmd: TRANSACTION UNDO
+[2025.09.09-18.46.28:157][766]LogEditorTransaction: Undo Move Elements
+[2025.09.09-18.47.00:476][147]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15618.997070
+[2025.09.09-18.47.01:477][150]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.47.01:477][150]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15619.665039, Update Interval: 320.253906
+[2025.09.09-18.48.22:972][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.48.23:083][435]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.48.23:123][435]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.48.23:123][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.48.23:123][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.48.23:136][435]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.48.23:138][435]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTarget34EB9BB340C7BDD72A9232838B0056AC.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.48.23:157][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.201 ms (total: 20.8 sec)
+[2025.09.09-18.48.23:270][435]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.48.23:270][435]LogContentValidation: Enabled validators:
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.48.23:270][435]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.48.23:270][435]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.48.35:543][ 73]LogPSOHitching: Encountered 1750 PSO creation hitches so far (794 graphics, 956 compute). 0 of them were precached.
+[2025.09.09-18.49.16:784][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.49.16:902][719]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.49.16:942][719]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.49.16:942][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.49.16:942][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.49.16:960][719]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.49.16:960][719]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTarget36D45CB648CF7713D6CC9CB853402560.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.49.16:980][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.288 ms (total: 21.0 sec)
+[2025.09.09-18.49.17:106][719]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.49.17:106][719]LogContentValidation: Enabled validators:
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.49.17:106][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.49.17:106][719]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.53.21:204][605]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15999.774414
+[2025.09.09-18.53.21:293][610]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.53.21:294][610]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15999.846680, Update Interval: 332.265991
+[2025.09.09-18.54.25:124][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.54.25:250][146]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.54.25:289][146]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.54.25:290][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.54.25:290][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.54.25:307][146]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.54.25:309][146]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTargetE21EF64E41E6AEF3091F99BADF9EC77D.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.54.25:328][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 204.287 ms (total: 21.2 sec)
+[2025.09.09-18.54.25:451][146]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.54.25:451][146]LogContentValidation: Enabled validators:
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.54.25:451][146]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.54.25:452][146]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.54.28:397][305]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.54.28:514][305]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_MovingTarget] ([2] browsable assets)...
+[2025.09.09-18.54.28:554][305]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_MovingTarget.BP_MovingTarget]
+[2025.09.09-18.54.28:554][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_MovingTarget]
+[2025.09.09-18.54.28:554][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingTarget" FILE="../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset" SILENT=true
+[2025.09.09-18.54.28:570][305]LogSavePackage: Moving output files for package: /Game/BP_MovingTarget
+[2025.09.09-18.54.28:571][305]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/BP_MovingTargetF02EE9FB4316E52E47E354A11A0A22D4.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_MovingTarget.uasset'
+[2025.09.09-18.54.28:592][305]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.442 ms (total: 21.4 sec)
+[2025.09.09-18.54.28:724][305]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.54.28:724][305]LogContentValidation: Enabled validators:
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.54.28:724][305]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.54.28:724][305]AssetCheck: /Game/BP_MovingTarget Validating asset
+[2025.09.09-18.54.54:114][182]LogBlueprint: Error: [AssetLog] C:\Users\lilia\OneDrive\Documents\GitHub\CIS-1953-Assignment-1\CIS1953HW\Content\BP_MovingTarget.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_Projectile  to imply a specific type.
+[2025.09.09-18.54.54:115][182]LogBlueprint: Error: [AssetLog] C:\Users\lilia\OneDrive\Documents\GitHub\CIS-1953-Assignment-1\CIS1953HW\Content\BP_MovingTarget.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2025.09.09-18.54.54:289][182]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2025.09.09-18.55.08:614][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2025.09.09-18.55.11:210][ 95]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.55.11:221][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.09-18.55.11:226][ 95]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.55.11:229][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002237s)
+[2025.09.09-18.55.11:229][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.002348s)
+[2025.09.09-18.55.11:261][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.09.09-18.55.11:266][ 95]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.55.11:270][ 95]LogPlayLevel: PIE: World Init took: (0.003964s)
+[2025.09.09-18.55.11:270][ 95]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.55.11:272][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.55.11:272][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.55.11:272][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.55.11:272][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.55.11:272][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.55.11:275][ 95]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.55.11:618][ 95]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.55.11:620][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.55.11:620][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.55.11:620][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.55.11:621][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2025.09.09-18.55.11:622][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2025.09.09-18.55.11:624][ 95]LogInit: FAudioDevice initialized with ID 48.
+[2025.09.09-18.55.11:624][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2025.09.09-18.55.11:624][ 95]LogAudio: Display: Audio Device (ID: 48) registered with world 'L_NewRoom'.
+[2025.09.09-18.55.11:624][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2025.09.09-18.55.11:624][ 95]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2025.09.09-18.55.11:650][ 95]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.55.11:653][ 95]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.55.11
+[2025.09.09-18.55.11:653][ 95]LogWorld: Bringing up level for play took: 0.001318
+[2025.09.09-18.55.11:658][ 95]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2025.09.09-18.55.11:670][ 95]PIE: Server logged in
+[2025.09.09-18.55.11:673][ 95]PIE: Play in editor total start time 0.454 seconds.
+[2025.09.09-18.55.11:713][ 96]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.55.21:635][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.55.21:635][669]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.55.21:635][669]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.55.21:636][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.55.21:639][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.55.21:644][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.55.21:675][669]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.09-18.55.21:676][669]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2025.09.09-18.55.21:676][669]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=4
+[2025.09.09-18.55.21:679][669]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=2
+[2025.09.09-18.55.21:685][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.55.21:688][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.09-18.55.21:743][669]LogPSOHitching: Encountered 1800 PSO creation hitches so far (820 graphics, 980 compute). 0 of them were precached.
+[2025.09.09-18.55.21:815][670]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2025.09.09-18.55.31:669][149]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2025.09.09-18.55.31:669][149]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2025.09.09-18.55.31:676][149]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/L_NewRoom.L_NewRoom:PersistentLevel.ExponentialHeightFog_0
+[2025.09.09-18.55.31:676][149]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/L_NewRoom.L_NewRoom:PersistentLevel.ExponentialHeightFog_0
+[2025.09.09-18.56.02:502][908]Cmd: TRANSACTION UNDO
+[2025.09.09-18.56.02:502][908]LogEditorTransaction: Undo Set Location
+[2025.09.09-18.56.06:439][122]Cmd: TRANSACTION UNDO
+[2025.09.09-18.56.06:439][122]LogEditorTransaction: Undo Edit Fog Density
+[2025.09.09-18.56.07:489][165]Cmd: TRANSACTION UNDO
+[2025.09.09-18.56.07:489][165]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2025.09.09-18.56.13:952][507]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.09.09-18.56.13:952][507]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.09.09-18.56.13:957][507]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/L_NewRoom.L_NewRoom:PersistentLevel.SkyAtmosphere_1
+[2025.09.09-18.56.13:957][507]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/L_NewRoom.L_NewRoom:PersistentLevel.SkyAtmosphere_1
+[2025.09.09-18.56.27:771][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-18.56.28:024][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.09.09-18.56.28:069][624]LogSavePackage: Moving output files for package: /Game/L_NewRoom
+[2025.09.09-18.56.28:071][624]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/L_NewRoom26668B324E70F034DBDD2299C3A2D42F.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/L_NewRoom.umap'
+[2025.09.09-18.56.28:096][624]LogFileHelpers: Saving map 'L_NewRoom' took 0.170
+[2025.09.09-18.56.28:117][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 345.419 ms (total: 21.7 sec)
+[2025.09.09-18.56.28:278][624]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-18.56.28:278][624]LogContentValidation: Enabled validators:
+[2025.09.09-18.56.28:278][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-18.56.28:278][624]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-18.56.28:278][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-18.56.28:278][624]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-18.56.28:279][624]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-18.56.28:279][624]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-18.56.28:279][624]AssetCheck: /Game/L_NewRoom Validating asset
+[2025.09.09-18.56.31:462][729]LogSlate: External Image Picker: DecompressImage failed
+[2025.09.09-18.56.38:847][ 89]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.09-18.56.38:868][ 89]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.09-18.58.07:914][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.09.09-18.58.07:914][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2025.09.09-18.58.07:917][959]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/L_NewRoom.L_NewRoom:PersistentLevel.SkyAtmosphere_2
+[2025.09.09-18.58.07:917][959]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/L_NewRoom.L_NewRoom:PersistentLevel.SkyAtmosphere_2
+[2025.09.09-18.58.09:530][ 49]Cmd: TRANSACTION UNDO
+[2025.09.09-18.58.09:530][ 49]LogEditorTransaction: Undo Create Actor
+[2025.09.09-18.59.02:430][508]Cmd: TRANSACTION UNDO
+[2025.09.09-18.59.02:430][508]LogEditorTransaction: Undo Edit Atmosphere Height
+[2025.09.09-18.59.18:633][442]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.09-18.59.18:642][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.09-18.59.18:673][442]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.59.18:676][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003140s)
+[2025.09.09-18.59.18:676][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_NewRoom.L_NewRoom to /Game/UEDPIE_0_L_NewRoom.L_NewRoom (0.003224s)
+[2025.09.09-18.59.18:728][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.09.09-18.59.18:736][442]LogChaosDD: Creating Chaos Debug Draw Scene for world L_NewRoom
+[2025.09.09-18.59.18:739][442]LogPlayLevel: PIE: World Init took: (0.002925s)
+[2025.09.09-18.59.18:740][442]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.09-18.59.18:740][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.09-18.59.18:740][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.09-18.59.18:740][442]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.09-18.59.18:740][442]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.09-18.59.18:740][442]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.09-18.59.18:742][442]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.09-18.59.18:991][442]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.09-18.59.18:991][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.09-18.59.18:991][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.09-18.59.18:991][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.09-18.59.18:992][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2025.09.09-18.59.18:992][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2025.09.09-18.59.18:996][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2025.09.09-18.59.18:996][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2025.09.09-18.59.18:996][442]LogInit: FAudioDevice initialized with ID 49.
+[2025.09.09-18.59.18:996][442]LogAudio: Display: Audio Device (ID: 49) registered with world 'L_NewRoom'.
+[2025.09.09-18.59.18:996][442]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2025.09.09-18.59.19:003][442]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.09-18.59.19:004][442]LogWorld: Bringing World /Game/UEDPIE_0_L_NewRoom.L_NewRoom up for play (max tick rate 60) at 2025.09.09-14.59.19
+[2025.09.09-18.59.19:004][442]LogWorld: Bringing up level for play took: 0.000979
+[2025.09.09-18.59.19:007][442]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2025.09.09-18.59.19:015][442]PIE: Server logged in
+[2025.09.09-18.59.19:018][442]PIE: Play in editor total start time 0.376 seconds.
+[2025.09.09-18.59.19:062][443]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.09-18.59.19:295][444]LogPSOHitching: Encountered 1850 PSO creation hitches so far (844 graphics, 1006 compute). 0 of them were precached.
+[2025.09.09-18.59.31:342][157]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16369.928711
+[2025.09.09-18.59.31:409][161]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.09-18.59.31:410][161]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16369.978516, Update Interval: 315.092010
+[2025.09.09-18.59.40:956][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.59.40:956][731]LogWorld: BeginTearingDown for /Game/UEDPIE_0_L_NewRoom
+[2025.09.09-18.59.40:957][731]LogWorld: UWorld::CleanupWorld for L_NewRoom, bSessionEnded=true, bCleanupResources=true
+[2025.09.09-18.59.40:958][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.59.40:961][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.09-18.59.40:968][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.09-18.59.40:997][731]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.09-18.59.40:997][731]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2025.09.09-18.59.40:997][731]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=4
+[2025.09.09-18.59.41:001][731]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=2
+[2025.09.09-18.59.41:007][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.09-18.59.41:011][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.09.09-18.59.41:051][732]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2025.09.09-19.00.10:384][430]Cmd: DELETE
+[2025.09.09-19.00.10:385][430]Cmd: ACTOR DELETE
+[2025.09.09-19.00.10:442][430]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2025.09.09-19.00.10:473][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.09.09-19.00.10:478][430]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2025.09.09-19.00.11:646][498]Cmd: DELETE
+[2025.09.09-19.00.11:646][498]Cmd: ACTOR DELETE
+[2025.09.09-19.00.11:649][498]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2025.09.09-19.00.11:686][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.09-19.00.11:690][498]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2025.09.09-19.00.12:536][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.09-19.00.12:741][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.09-19.00.12:759][547]LogSavePackage: Moving output files for package: /Game/L_NewRoom
+[2025.09.09-19.00.12:760][547]LogSavePackage: Moving '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Saved/L_NewRoomA12F44664C434D2BCDD8D1BF50FBEB52.tmp' to '../../../../../../Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/L_NewRoom.umap'
+[2025.09.09-19.00.12:769][547]LogFileHelpers: Saving map 'L_NewRoom' took 0.075
+[2025.09.09-19.00.12:792][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 254.954 ms (total: 22.0 sec)
+[2025.09.09-19.00.12:906][547]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.09-19.00.12:907][547]LogContentValidation: Enabled validators:
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.09-19.00.12:908][547]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.09-19.00.12:908][547]AssetCheck: /Game/L_NewRoom Validating asset
