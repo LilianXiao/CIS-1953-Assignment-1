@@ -6,6 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/L_NewRoom.umap",
+				"C:/Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/BP_Projectile.uasset",
+				"C:/Users/lilia/OneDrive/Documents/GitHub/CIS-1953-Assignment-1/CIS1953HW/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/lilia/OneDrive/Documents/Unreal Projects/CIS1953HW/Content/L_NewRoom.umap"
 			]
 		}
