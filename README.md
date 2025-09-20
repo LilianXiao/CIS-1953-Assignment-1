@@ -1,6 +1,7 @@
 # CIS 1953 Unreal Engine HW
 
 # Assignment 1 notes:
+**Issues I've been working through**
 * For the longest time was struggling with debugging hit events (projectile collisions were either behaving abnormally or failing to spawn, despite having ignore actor, so used overlap events instead and that fixed the issue...this kinda goes hand in hand with my attempt at purely physics-based projectiles, which weren't working due to this issue, so I just used projectile movement
 * Getting this bug: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsBP_First_Person_Character in not an UClass". Node:  SpawnActor BP Moving Target Graph:  EventGraph Function:  Execute Ubergraph BP Target Spawner Blueprint:  BP_TargetSpawner
 * It's absolutely to do with this in my BP_TargetSpawner:
