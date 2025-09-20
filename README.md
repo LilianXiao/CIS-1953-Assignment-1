@@ -15,8 +15,6 @@ See this in BP_Projectile:
 * Actually just fixed the strange collision behavior mentioned above:
 <img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/a8604989-18e6-43ae-8645-4cfedb8a60a6" />
 
-<img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/ea66c827-f516-48d9-a40c-c6a19fad9dc3" />
-
 * Since I wanted to avoid the projectile colliding and destroying on the invisible target box while simultaneously keeping overlap -> destroy behavior for other things like moving targets + environment, this somehow solves the issue.  Originally I'd just cast it to my target spawner and destroy actor if cast failed, but while this avoided the first issue, the projectiles still wouldn't destroy upon colliding with anything.
 
 
