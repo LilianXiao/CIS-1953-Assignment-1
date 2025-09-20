@@ -1,4 +1,4 @@
-# CIS 1953 Unreal Engine HW
+<img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/ea66c827-f516-48d9-a40c-c6a19fad9dc3" /># CIS 1953 Unreal Engine HW
 
 # Assignment 1 notes:
 **Issues I've been working through**
@@ -11,6 +11,12 @@
 * projectile refuses to destroy when colliding with environment props.  This includes objs I imported myself and also basic unreal primitives, but I've set basically all of them to blockall in collision presets and also checked generate overlap events in case, and the projectiles do not destroy.
 See this in BP_Projectile:
 <img width="598" height="223" alt="image" src="https://github.com/user-attachments/assets/d519e863-d1ed-40fe-80e5-6ce79054e84a" />
+
+* Actually just fixed the strange collision behavior mentioned above:
+<img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/a8604989-18e6-43ae-8645-4cfedb8a60a6" />
+
+* Since I wanted to avoid the projectile colliding and destroying on the invisible target box while simultaneously keeping overlap -> destroy behavior for other things like moving targets + environment, this somehow solves the issue.  Originally I'd just cast it to my target spawner and destroy actor if cast failed, but while this avoided the first issue, the projectiles still wouldn't destroy upon colliding with anything.
+
 
 * The reason I made the cast to my trigger box bp was because the projectiles were destroying on the invisible box, and once I did this it prevented this behavior.
 
