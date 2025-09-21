@@ -16,9 +16,7 @@ See this in BP_Projectile:
 <img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/a8604989-18e6-43ae-8645-4cfedb8a60a6" />
 
 * Since I wanted to avoid the projectile colliding and destroying on the invisible target box while simultaneously keeping overlap -> destroy behavior for other things like moving targets + environment, this somehow solves the issue.  Originally I'd just cast it to my target spawner and destroy actor if cast failed, but while this avoided the first issue, the projectiles still wouldn't destroy upon colliding with anything.
-
-
-* The reason I made the cast to my trigger box bp was because the projectiles were destroying on the invisible box, and once I did this it prevented this behavior.
+* You may notice the projectiles colliding and destroying close to the hornet model; this is only due to the weird collision box unreal put on the model, not because of the trigger box or anything else lol
 
 **General notes:**
 * I decided to have some fun with the environment and imported some objs I modeled, including the pillars, the target prisms (kinda looks like the prisms from the sims haha), and the hornet model (she is the indicator for the trigger box :D)
