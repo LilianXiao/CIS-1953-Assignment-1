@@ -5,6 +5,7 @@
 * Been trying to figure out how to modularize everything by making them components.  In the meantime the functionality I have looks pretty spaghetti, though I tried to implement everything that I could
 * To make the ui I used widget bps, though I should have used widget components (?)
 * Because I haven't figured out components yet, my projectile logic is still built into my first person character.  So I ended up doing my UI updating in there as well.  It works enough for the health + on death functionality, but the ammo is cooked!!!!!!!!!!!!!!  Couldn't use the set timer by event node because I didn't implement these as separate components....will have to tough that out....
+* Moved the trigger box and moving targets further away and put a pain volume around the Hornet model.
 
 # Assignment 1 notes:
 **Issues I've been working through**
