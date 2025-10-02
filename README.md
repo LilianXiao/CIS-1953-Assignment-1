@@ -1,6 +1,6 @@
 # CIS 1953 Unreal Engine HW
 
-#Assignment 2 notes:
+# Assignment 2 notes:
 **Issues I've been working through**
 * Been trying to figure out how to modularize everything by making them components.  In the meantime the functionality I have looks pretty spaghetti, though I tried to implement everything that I could
 * To make the ui I used widget bps, though I should have used widget components (?)
