@@ -1,5 +1,11 @@
 # CIS 1953 Unreal Engine HW
 
+#Assignment 2 notes:
+**Issues I've been working through**
+* Been trying to figure out how to modularize everything by making them components.  In the meantime the functionality I have looks pretty spaghetti, though I tried to implement everything that I could
+* To make the ui I used widget bps, though I should have used widget components (?)
+* Because I haven't figured out components yet, my projectile logic is still built into my first person character.  So I ended up doing my UI updating in there as well.  It works enough for the health + on death functionality, but the ammo is cooked!!!!!!!!!!!!!!  Couldn't use the set timer by event node because I didn't implement these as separate components....will have to tough that out....
+
 # Assignment 1 notes:
 **Issues I've been working through**
 * For the longest time was struggling with debugging hit events (projectile collisions were either behaving abnormally or failing to spawn, despite having ignore actor, so used overlap events instead and that fixed the issue...this kinda goes hand in hand with my attempt at purely physics-based projectiles, which weren't working due to this issue, so I just used projectile movement
